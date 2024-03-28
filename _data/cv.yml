@@ -2,11 +2,14 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Sangwoo Jung
     - name: Date of Birth
-      value: 14th March 1879
+      value: 30th January 1998
     - name: Languages
-      value: English, German
+      value: Korean, English
+    - name: Skills (advanced)
+      value: C/C++, Python, MATLAB, ROS, PyTorch, Latex, Solidworks
+    - name: Skills (experience)
 
 - title: Education
   type: time_table
