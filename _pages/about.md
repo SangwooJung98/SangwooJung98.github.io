@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. Student @ <a href='https://rpm.snu.ac.kr/'>RPM robotics Lab</a> at <a href='https://www.snu.ac.kr/'>Seoul National University</a>
 
 profile:
   align: right
