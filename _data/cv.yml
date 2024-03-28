@@ -7,9 +7,10 @@
       value: 30th January 1998
     - name: Languages
       value: Korean, English
-    - name: Skills (advanced)
+    - name: Skills (Advanced)
       value: C/C++, Python, MATLAB, ROS, PyTorch, Latex, Solidworks
-    - name: Skills (experience)
+    - name: Skills (Intermediate)
+      value: Java, Scala, Rust, Assembly
 
 - title: Education
   type: time_table
