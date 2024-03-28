@@ -298,7 +298,7 @@ scholar:
   bibliography: papers_selected.bib
   bibliography_international_journals: papers_inter_journal.bib
   bibliography_international_conferences: papers_inter_conf.bib
-  bibliography_domestic_journals: papers_domes_journals.bib
+  bibliography_domestic_journals: papers_domes_journal.bib
   bibliography_thesis: papers_thesis.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
