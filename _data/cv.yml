@@ -8,9 +8,9 @@
     - name: Languages
       value: Korean, English
     - name: Skills (Advanced)
-      value: C/C++, Python, MATLAB, ROS, PyTorch, Latex, Solidworks
-    - name: Skills (Intermediate)
-      value: Java, Scala, Rust, Assembly
+      value: C/C++, Python, MATLAB, ROS, PyTorch, Latex
+    - name: Skills (Novice)
+      value: Solidworks, Java, Scala, Rust, Assembly
 
 - title: Education
   type: time_table
