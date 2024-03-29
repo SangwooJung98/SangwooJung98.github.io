@@ -3,19 +3,19 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #FBF3D5;
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
   --global-theme-color:  #69B578;
   --global-hover-color:  #69B578;
-  --global-hover-text-color: #{$white-color};
+  --global-hover-text-color: #FBF3D5;
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
+  --global-footer-link-color: #FBF3D5;
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #FBF3D5;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
