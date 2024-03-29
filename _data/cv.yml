@@ -12,6 +12,15 @@
     - name: Skills (Novice)
       value: Solidworks, Java, Scala, Rust, Assembly
 
+- title: Field of Interest
+  type: time_table
+  contents:
+    - title: 
+      description: 
+        - radar, LiDAR SLAM
+        - Legged Robot
+        - Deep Learning
+
 - title: Education
   type: time_table
   contents:
