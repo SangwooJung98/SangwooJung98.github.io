@@ -47,7 +47,7 @@
       institution: Hansung Science High School (HSHS), Seoul, Seouth Korea
       year: 2016.02.
       description:
-        - Student Research Project on physics and math
+        - Student Research Project on Physics and Math
         - Research & Education (R&E) Program in Sogang University, Seoul, South Korea
           
 - title: Experience
@@ -57,7 +57,7 @@
       institution: IRAP(current RPM Lab in SNU), Dept. of Civil & Environmental Engineering, KAIST
       year: 2020 - 2021
       description:
-        - LiDAR-based UGV sensing system build and multiple experiments in unstructured environment
+        - LiDAR-based UGV Sensing System Build and Multiple Experiments in Unstructured Environments
     
     - title: Exchange Student
       institution: KTH Royal Institute of Technology, Stockholm, Sweden
@@ -67,7 +67,7 @@
       institution: MORIN Lab, Dept. of Mechanical Engineering, KAIST
       year: 2018 - 2018
       description:
-        - ROS-based communication program development and jig hardware design for drone cameras
+        - ROS-based Communication Program Development and Jig Hardware Design for Drone Cameras
 
 - title: Services
   type: time_table
