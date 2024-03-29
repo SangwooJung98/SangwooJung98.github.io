@@ -15,87 +15,63 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S.
+      institution: Seoul National University (SNU), Seoul, South Korea
+      year: 2021.09 - 2023.08.
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Mechanical Engineering
+        - Advised by Dr. Ayoung Kim 
+        - title: Dissertation
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Radar Odometry for Quadrupedal Robot using Gravity
+    
+    - title: B.S.
+      institution: Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea
+      year: 2016.03 - 2021.02.
       description:
-        - Description 1.
-        - Description 2.
+        - Mechanical Engineering
+        - Computer Science
+        - Advised by Dr. Seong Su Kim
+    
+    - title: High School
+      institution: Hansung Science High School (HSHS), Seoul, Seouth Korea
+      year: 2014.03. - 2016.02.
+      description:
+        - title: Student Research Project on physics and math
+          contents:
+            - Study on Extension of N-Queens Problem on Hexagon Chessboard
+            - A Study on Ordering Efficiency Through Expansion of Rock, Scissors and Paper
+            - Exploring the Availability of Applying Ammonium Bicarbonate to Waste Heat Power Generation
+        - title: Research & Education (R&E) Program in Sogang University, Seoul, South Korea
+          contents:
+            - Evaluation on the Performance of the Reverse Electrodialysis System with the Thermolytic Solution
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Undergraduate Researcher
+      institution: IRAP(current RPM Lab in SNU), Dept. of Civil & Environmental Engineering, KAIST
+      year: 2020.07 - 2021.08
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - LiDAR-based UGV sensing system build and multiple experiments in unstructured environment
+    
+    - title: Exchange Student
+      institution: KTH Royal Institute of Technology, Stockholm, Sweden
+      year: 2019.08-2020.01
+    
+    - title: Undergraduate Researcher
+      institution: MORIN Lab, Dept. of Mechanical Engineering, KAIST
+      year: 2018.06 - 2018.08
       description:
-        - Description 1.
-        - Description 2.
+        - ROS-based communication program development and jig hardware design for drone cameras
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Services
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Reviewer
+      description: 
+        - IEEE Robotics and Automation Letters (RA-L)
+        - IEEE International Conference on Robotics and Automation (ICRA)
+        - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        - Intelligent Service Robotics (ISR)
+        - IEEE International Conference on Ubiquitous Robots (UR)
