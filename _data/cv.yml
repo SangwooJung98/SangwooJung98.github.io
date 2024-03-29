@@ -24,6 +24,13 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. Student
+      institution: Seoul National University (SNU), Seoul, South Korea
+      year: 2023 - Now
+      description:
+        - Mechanical Engineering
+        - Being Advised by Dr. Ayoung Kim
+
     - title: M.S.
       institution: Seoul National University (SNU), Seoul, South Korea
       year: 2023.08.
@@ -69,5 +76,5 @@
         - IEEE Robotics and Automation Letters (RA-L)
         - IEEE International Conference on Robotics and Automation (ICRA)
         - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-        - Intelligent Service Robotics (ISR)
         - IEEE International Conference on Ubiquitous Robots (UR)
+        - Intelligent Service Robotics (ISR)
