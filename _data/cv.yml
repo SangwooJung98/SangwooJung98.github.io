@@ -27,7 +27,7 @@
   contents:
     - title: M.S.
       institution: Seoul National University (SNU), Seoul, South Korea
-      year: 2021.09 - 2023.08.
+      year: 2023.08.
       description:
         - Mechanical Engineering
         - Advised by Dr. Ayoung Kim 
@@ -37,7 +37,7 @@
     
     - title: B.S.
       institution: Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea
-      year: 2016.03 - 2021.02.
+      year: 2021.02.
       description:
         - Mechanical Engineering
         - Computer Science
@@ -45,33 +45,27 @@
     
     - title: High School
       institution: Hansung Science High School (HSHS), Seoul, Seouth Korea
-      year: 2014.03. - 2016.02.
+      year: 2016.02.
       description:
-        - title: Student Research Project on physics and math
-          contents:
-            - Study on Extension of N-Queens Problem on Hexagon Chessboard
-            - A Study on Ordering Efficiency Through Expansion of Rock, Scissors and Paper
-            - Exploring the Availability of Applying Ammonium Bicarbonate to Waste Heat Power Generation
-        - title: Research & Education (R&E) Program in Sogang University, Seoul, South Korea
-          contents:
-            - Evaluation on the Performance of the Reverse Electrodialysis System with the Thermolytic Solution
-
+        - Student Research Project on physics and math
+        - Research & Education (R&E) Program in Sogang University, Seoul, South Korea
+          
 - title: Experience
   type: time_table
   contents:
     - title: Undergraduate Researcher
       institution: IRAP(current RPM Lab in SNU), Dept. of Civil & Environmental Engineering, KAIST
-      year: 2020.07 - 2021.08
+      year: 2020 - 2021
       description:
         - LiDAR-based UGV sensing system build and multiple experiments in unstructured environment
     
     - title: Exchange Student
       institution: KTH Royal Institute of Technology, Stockholm, Sweden
-      year: 2019.08 - 2020.01
+      year: 2019 - 2020
     
     - title: Undergraduate Researcher
       institution: MORIN Lab, Dept. of Mechanical Engineering, KAIST
-      year: 2018.06 - 2018.08
+      year: 2018 - 2018
       description:
         - ROS-based communication program development and jig hardware design for drone cameras
 
