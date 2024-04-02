@@ -442,7 +442,7 @@ footer.fixed-bottom {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
-    text-align: center;
+    text-align: left;
   }
 
   a {
@@ -462,7 +462,7 @@ footer.sticky-bottom {
   font-size: 0.9rem;
 
   .container {
-    text-align: center;
+    text-align: left;
   }
 }
 

@@ -1,11 +1,11 @@
 {% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo" align="left">
+  <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }} 
-      <img align="right" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsangwoojung98.github.io&count_bg=%23000000&title_bg=%23000000&icon=&icon_color=%23FFFFFF&title=hits&edge_flat=true"/>
+      {{ site.last_name }}. {{ site.footer_text }}
+      <img align="right" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsangwoojung98.github.io&count_bg=%231C1C1D&title_bg=%231C1C1D&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=true"/>
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
@@ -15,7 +15,7 @@
     </div>
   </footer>
 {% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo" align="left">
+  <footer class="sticky-bottom mt-5" role="contentinfo">
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
