@@ -177,7 +177,7 @@ collections:
   projects:
     output: false
     permalink: /projects/:path/
-
+  
 announcements:
   enabled: false
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
