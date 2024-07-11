@@ -192,7 +192,7 @@ latest_posts:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-  
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
