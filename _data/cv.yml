@@ -20,11 +20,12 @@
         - Radar, LiDAR SLAM
         - Legged Robot
         - Sensor Fusion
-
+        - Deep Learning
+   
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. Student
+    - title: Ph.D. Candidate
       institution: Seoul National University (SNU), Seoul, South Korea
       year: 2023 - Now
       description:
