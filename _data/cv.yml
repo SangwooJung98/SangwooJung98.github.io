@@ -69,6 +69,27 @@
       description:
         - ROS-based Communication Program Development and Jig Hardware Design for Drone Cameras
 
+- title: Presentations
+  type: time_table
+  contents:
+    - title: Poster Presentation
+      year: 2024.07.
+      description:
+        - Work-in-Progress Paper in UR
+        - Toward 6D Velocity Estimation for Legged Robot using Rolling Motion
+    
+    - title: Poster Presentation
+      year: 2023.10.
+      description:
+        - Novel Sensors for Autonomous Vehicle Perception Workshop in IROS
+        - CycleGAN-based Imaging Radar to LiDAR Image-Translation for 2D Extrinsic Calibration
+    
+    - title: Poster Presentation
+      year: 2022.10.
+      description:
+        - Late-Breaking Result in IROS
+        - 6D Instantaneous Velocity for Legged Robot using Rolling Motion
+
 - title: Services
   type: time_table
   contents:
