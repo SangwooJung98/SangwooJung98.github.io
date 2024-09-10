@@ -72,6 +72,12 @@
 - title: Presentations
   type: time_table
   contents:
+    # - title: Oral Presentation
+    #   year: 2024.10.
+    #   description:
+    #     - Regular Paper Oral Presentation in IROS
+    #     - Co-RaL: Complementary Radar-Leg Odometry with 4-DoF Optimization and Rolling Contact
+
     - title: Poster Presentation
       year: 2024.07.
       description:
