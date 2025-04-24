@@ -295,7 +295,7 @@ scholar:
   
   style: apa
   locale: en
- 
+  
   source: /_bibliography/
   bibliography: papers_selected.bib
   bibliography_international_journals: papers_inter_journal.bib
