@@ -73,6 +73,11 @@
   type: time_table
   contents:
     - title: Oral Presentation
+      year: 2025.07.
+      description:
+        - ISR Journal Session Invited Oral Presentation in UR
+        - Imaging radar and LiDAR Image Translation for 3-DOF Extrinsic Calibration
+    - title: Oral Presentation
       year: 2024.10.
       description:
         - Regular Paper Oral Presentation in IROS
