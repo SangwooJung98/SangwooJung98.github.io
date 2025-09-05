@@ -10,7 +10,7 @@
     - name: Skills (Advanced)
       value: C/C++, Python, MATLAB, ROS, PyTorch, Latex
     - name: Skills (Novice)
-      value: Solidworks, Java, Scala, Rust, Assembly
+      value: Solidworks, Java, Scala, F#, Rust, Assembly
 
 - title: Field of Interest
   type: time_table
