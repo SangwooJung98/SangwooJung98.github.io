@@ -32,7 +32,7 @@
         - Mechanical Engineering
         - Being Advised by Dr. Ayoung Kim
 
-    - title: M.S.
+    - title: Master of Science
       institution: Seoul National University (SNU), Seoul, South Korea
       year: 2023.08.
       description:
@@ -42,13 +42,19 @@
           contents:
             - Radar Odometry for Quadrupedal Robot using Gravity
     
-    - title: B.S.
+    - title: Bachelor of Science
       institution: Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea
       year: 2021.02.
       description:
         - Mechanical Engineering
         - Computer Science
         - Advised by Dr. Seong Su Kim
+    
+    = title: High School
+      institution: Hansung Science High School (HSHS), Seoul, South Korea
+      year: 2016.02.
+      description:
+        - Early Graduation
     
 - title: Experience
   type: time_table
