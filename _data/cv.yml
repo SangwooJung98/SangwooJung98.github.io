@@ -112,10 +112,11 @@
   contents:
     - title: Reviewer
       description: 
+        - IEEE Transactions on Robotics (T-RO)
+        - International Journal of Robotics Research (IJRR)
         - IEEE Robotics and Automation Letters (RA-L)
         - IEEE International Conference on Robotics and Automation (ICRA)
         - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
         - IEEE International Conference on Ubiquitous Robots (UR)
         - IEEE Sensors Journal
         - Intelligent Service Robotics (ISR)
-        - Signal, Image and Video Processing
