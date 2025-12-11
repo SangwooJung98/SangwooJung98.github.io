@@ -59,6 +59,19 @@
 - title: Experience
   type: time_table
   contents:
+    # - title: Research Intern
+    #   institution: Robotics and AI (RAI) Institute
+    #   year: 2026 - 2026
+    #   description:
+    #     - Perception Team Ph.D. Research Internship
+    #     - Blur-Robust Online Incremental 3D Gaussian Splatting
+
+    - title: Teaching Assistant
+      institution: Dept. of Mechanical Engineering, Seoul National University (SNU)
+      year: 2025 - 2025
+      description:
+        - (SLAM101) Sensor-Based Spatial Intelligence
+
     - title: Undergraduate Researcher
       institution: IRAP(current RPM Lab in SNU), Dept. of Civil & Environmental Engineering, KAIST
       year: 2020 - 2021
@@ -83,6 +96,7 @@
       description:
         - ISR Journal Session Invited Oral Presentation in UR
         - Imaging radar and LiDAR Image Translation for 3-DOF Extrinsic Calibration
+
     - title: Oral Presentation
       year: 2024.10.
       description:
@@ -117,6 +131,7 @@
         - IEEE Robotics and Automation Letters (RA-L)
         - IEEE International Conference on Robotics and Automation (ICRA)
         - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        - IEEE Journal of Oceanic Engineering (JOE)
         - IEEE International Conference on Ubiquitous Robots (UR)
         - IEEE Sensors Journal
         - Intelligent Service Robotics (ISR)
