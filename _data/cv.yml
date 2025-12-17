@@ -59,18 +59,12 @@
 - title: Experience
   type: time_table
   contents:
-    # - title: Research Intern
-    #   institution: Robotics and AI (RAI) Institute
-    #   year: 2026 - 2026
-    #   description:
-    #     - Perception Team Ph.D. Research Internship
-    #     - Blur-Robust Online Incremental 3D Gaussian Splatting
-
-    - title: Teaching Assistant
-      institution: Dept. of Mechanical Engineering, Seoul National University (SNU)
-      year: 2025 - 2025
+    - title: Ph.D. Research Internship
+      institution: Robotics and AI (RAI) Institute
+      year: 2026 - 2026
       description:
-        - (SLAM101) Sensor-Based Spatial Intelligence
+        - Perception Team Ph.D. Research Internship
+        - Blur-Robust Online Incremental 3D Gaussian Splatting
 
     - title: Undergraduate Researcher
       institution: IRAP(current RPM Lab in SNU), Dept. of Civil & Environmental Engineering, KAIST
@@ -121,7 +115,7 @@
         - Late-Breaking Result in IROS
         - 6D Instantaneous Velocity for Legged Robot using Rolling Motion
 
-- title: Services
+- title: Academic Services
   type: time_table
   contents:
     - title: Reviewer
@@ -135,3 +129,34 @@
         - IEEE International Conference on Ubiquitous Robots (UR)
         - IEEE Sensors Journal
         - Intelligent Service Robotics (ISR)
+
+- title: Teaching Assistant
+  type: time_table
+  contents:
+    - title: (SLAM101) Sensor-Based Spatial Intelligence
+      institution: Dept. of Mechanical Engineering, Seoul National University (SNU)
+      year: 2025 - 2025
+    
+    - title: (UROP) Undergraduate Research Opportunities Program
+      institution: Dept. of Mechanical Engineering, Seoul National University (SNU)
+      year: 2024 - 2024
+      description:
+        - 3D Map Accuracy Evaluation Hardware and Algorithm
+
+    - title: (UROP) Undergraduate Research Opportunities Program
+      institution: Dept. of Mechanical Engineering, Seoul National University (SNU)
+      year: 2023 - 2023
+      description:
+        - Husky LiDAR-Thermal-IMU Hardware/Software Design
+
+    - title: Undergraduate Research Experience
+      institution: Dept. of Mechanical Engineering, Seoul National University (SNU)
+      year: 2022 - 2022
+      description:
+        - SPOT LiDAR-IMU Hardware/Software Design
+
+    - title: Undergraduate Graduation Project
+      institution: Dept. of Mechanical Engineering, Seoul National University (SNU)
+      year: 2022 - 2022
+      description:
+        - On Efficient Exploitation of Contact Information for Quadruped Localization
