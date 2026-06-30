@@ -86,6 +86,18 @@
   type: time_table
   contents:
     - title: Oral Presentation
+      year: 2026.07.
+      description: 
+        - RAI Institute Internship Presentation
+        - Robust and Analytically Accurate Motion Blur Handling on Online 3D Gaussian Splatting
+
+    - title: Oral Presentation
+      year: 2026.06.
+      description:
+        - MIT Spark Lab Seminars
+        - Robust and Analytically Accurate Motion Blur Handling on Online 3D Gaussian Splatting
+
+    - title: Oral Presentation
       year: 2025.07.
       description:
         - ISR Journal Session Invited Oral Presentation in UR
@@ -125,10 +137,11 @@
         - IEEE Robotics and Automation Letters (RA-L)
         - IEEE International Conference on Robotics and Automation (ICRA)
         - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        - Conference on Robot Learning (CoRL)
+        - Intelligent Service Robotics (ISR)
         - IEEE Journal of Oceanic Engineering (JOE)
         - IEEE International Conference on Ubiquitous Robots (UR)
         - IEEE Sensors Journal
-        - Intelligent Service Robotics (ISR)
 
 - title: Teaching Assistant
   type: time_table
