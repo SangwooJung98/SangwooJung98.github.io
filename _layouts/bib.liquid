@@ -76,13 +76,13 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <button type="button" class="abstract btn btn-sm z-depth-0" aria-expanded="false" aria-controls="abstract-{{ entry.key }}">Abs</button>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+        <button type="button" class="bibtex btn btn-sm z-depth-0" aria-expanded="false" aria-controls="bibtex-{{ entry.key }}">Bib</button>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -106,7 +106,7 @@
         {% endif %}
       {% endif %}
       {% if entry.video %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+        <button type="button" class="abstract btn btn-sm z-depth-0" aria-expanded="false" aria-controls="video-{{ entry.key }}">Video</button>
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
@@ -134,14 +134,14 @@
     </div>
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
-      <div class="abstract hidden">
+      <div id="abstract-{{ entry.key }}" class="abstract hidden" hidden>
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
 
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
+      <div id="bibtex-{{ entry.key }}" class="bibtex hidden" hidden>
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
         {% endhighlight %}
@@ -150,7 +150,7 @@
 
     {% if entry.video %}
       <!-- Hidden video block -->
-      <div class="abstract hidden">
+      <div id="video-{{ entry.key }}" class="abstract hidden" hidden>
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
