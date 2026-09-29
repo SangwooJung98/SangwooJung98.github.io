@@ -11,6 +11,8 @@ toc:
 
 An up-to-date paper list may found on <a href='https://scholar.google.com/citations?user=I2pNZDkAAAAJ'>Google Scholar</a>
 
+<p class="small">* Co-first authors.</p>
+
 ## International Journals
 
 <div class="publications">

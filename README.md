@@ -42,6 +42,12 @@ Python, Jupyter, global npm packages and external blog feeds are not required.
 Keep each paper in its category file only. The homepage uses the same entry, so its title, authors, links and BibTeX stay consistent with the publications page.
 Unknown or duplicate selected keys fail the build. The original Co-RaL selection's inconsistent page range and missing organization now come from its canonical conference entry.
 
+For a paper with shared first authorship, add `cofirst={2}` to its BibTeX entry (use the number of leading co-first authors).
+The homepage and publications list add `*` after those names. The copied BibTeX keeps the original author names and omits this display field.
+The current annotations were verified on page 1 of the linked PDFs: GaRLILEO (Chiyun Noh, Sangwoo Jung), MOANA (Hyesu Jang, Wooseong Yang), TRansPose (Jeongyun Kim, Myung-Hwan Jeon), and Quantitative 3D Map Accuracy Evaluation (Sanghyun Hahn, Seunghun Oh).
+
+The default theme is dark. A visitor's saved light, dark or system preference takes precedence; use the navigation theme button to change it.
+
 `assets/img/prof_pic.jpg` remains the source image. Production builds generate three WebP sizes automatically.
 Do not commit `_site`, `vendor/bundle`, `node_modules` or generated WebP files.
 
