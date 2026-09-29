@@ -1,6 +1,20 @@
 {
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build": "bash bin/build",
+    "check": "bundle exec ruby bin/check-site",
+    "format:check": "prettier . --check",
+    "format": "prettier . --write",
+    "test": "bundle exec ruby test/build_test.rb",
+    "preview": "bundle exec ruby -run -e httpd _site -p 4000 -b 127.0.0.1",
+    "baseline:update": "bundle exec ruby bin/update-baseline"
+  },
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "1.4.0",
-    "prettier": "3.1.1"
+    "prettier": "3.1.1",
+    "purgecss": "7.0.2"
   }
 }

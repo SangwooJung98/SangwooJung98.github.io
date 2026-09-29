@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+require 'yaml'
+require_relative 'site_tools'
+
+root = File.expand_path('..', __dir__)
+path = File.join(root, 'test/fixtures/published.json')
+fixture = JSON.parse(File.read(path))
+%w[index.html cv/index.html publications/index.html].each do |relative|
+  file = File.join(root, '_site', relative)
+  abort "Missing #{file}; run npm run build first." unless File.file?(file)
+  document = Nokogiri::HTML(File.read(file))
+  fixture['pages'][relative] = {
+    'text' => SiteTools.main_text(document),
+    'publication_ids' => document.css('.publications .row > div[id]').map { |node| node['id'] }
+  }
+end
+fixture['pdf_sha256'] = Dir.glob(File.join(root, '_site/{pdf,assets/pdf}/**/*.pdf')).sort.to_h do |file|
+  [Pathname(file).relative_path_from(Pathname(File.join(root, '_site'))).to_s, Digest::SHA256.file(file).hexdigest]
+end
+fixture['description'] = 'Reviewed expected content. source_commit and deployment_commit identify the initial pre-refactor baseline.'
+File.write(path, JSON.pretty_generate(fixture) + "\n")
+puts 'Updated content/PDF expectations. Review the fixture diff, then run npm run check.'

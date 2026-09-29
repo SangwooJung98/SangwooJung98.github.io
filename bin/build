@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+command -v convert >/dev/null || { echo 'ImageMagick is required (convert must be on PATH).' >&2; exit 1; }
+export JEKYLL_ENV=production
+bundle exec jekyll clean
+bundle exec jekyll build --trace
+./node_modules/.bin/purgecss --config purgecss.config.js
+bundle exec ruby bin/finalize-css
+bundle exec ruby bin/check-site
