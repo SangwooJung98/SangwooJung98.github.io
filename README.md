@@ -40,6 +40,7 @@ Python, Jupyter, global npm packages and external blog feeds are not required.
 | Colors and layout                        | `_sass/_themes.scss`, `_sass/_layout.scss`, `_sass/_base.scss` |
 
 Keep each paper in its category file only. The homepage uses the same entry, so its title, authors, links and BibTeX stay consistent with the publications page.
+List every author in the published order; replace imported `and others` entries with the complete list from that publication's official record. All authors are displayed without a limit or an expand control.
 Unknown or duplicate selected keys fail the build. The original Co-RaL selection's inconsistent page range and missing organization now come from its canonical conference entry.
 
 For a paper with shared first authorship, add `cofirst={2}` to its BibTeX entry (use the number of leading co-first authors).
