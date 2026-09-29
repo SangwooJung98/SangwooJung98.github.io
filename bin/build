@@ -6,6 +6,6 @@ command -v convert >/dev/null || { echo 'ImageMagick is required (convert must b
 export JEKYLL_ENV=production
 bundle exec jekyll clean
 bundle exec jekyll build --trace
-./node_modules/.bin/purgecss --config purgecss.config.js
+node bin/purge-css.cjs
 bundle exec ruby bin/finalize-css
 bundle exec ruby bin/check-site

@@ -464,7 +464,8 @@ footer.sticky-bottom {
       }
 
       .links {
-        a.btn {
+        .btn {
+          background-color: transparent;
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -476,6 +477,11 @@ footer.sticky-bottom {
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+          }
+
+          &:focus-visible {
+            outline: 2px solid var(--global-theme-color);
+            outline-offset: 3px;
           }
         }
       }
@@ -570,8 +576,19 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
+  transition-property: color, background-color, border-color, box-shadow !important;
+  transition-duration: 200ms !important;
+  transition-timing-function: ease !important;
   transition-delay: 0 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.transition,
+  html.transition *,
+  html.transition *:before,
+  html.transition *:after {
+    transition: none !important;
+  }
 }
 
 progress {
@@ -648,9 +665,15 @@ progress::-moz-progress-bar {
 
   &:active .copy,
   &:focus .copy,
+  &:focus-within .copy,
   &:hover .copy {
     color: var(--global-hover-color);
     opacity: 1;
+  }
+
+  .copy:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
   }
 }
 

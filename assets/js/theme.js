@@ -13,19 +13,19 @@ let toggleThemeSetting = () => {
 };
 
 // Change the theme setting and apply the theme.
-let setThemeSetting = (themeSetting) => {
+let setThemeSetting = (themeSetting, animate = true) => {
   localStorage.setItem("theme", themeSetting);
 
   document.documentElement.setAttribute("data-theme-setting", themeSetting);
 
-  applyTheme();
+  applyTheme(animate);
 };
 
 // Apply the computed dark or light theme to the website.
-let applyTheme = () => {
+let applyTheme = (animate = true) => {
   let theme = determineComputedTheme();
 
-  transTheme();
+  if (animate) transTheme();
   setHighlight(theme);
   document.documentElement.setAttribute("data-theme", theme);
 
@@ -50,11 +50,13 @@ let setHighlight = (theme) => {
   }
 };
 
+let themeTransitionTimer;
 let transTheme = () => {
+  window.clearTimeout(themeTransitionTimer);
   document.documentElement.classList.add("transition");
-  window.setTimeout(() => {
+  themeTransitionTimer = window.setTimeout(() => {
     document.documentElement.classList.remove("transition");
-  }, 500);
+  }, 200);
 };
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
@@ -86,7 +88,7 @@ let determineComputedTheme = () => {
 let initTheme = () => {
   let themeSetting = determineThemeSetting();
 
-  setThemeSetting(themeSetting);
+  setThemeSetting(themeSetting, false);
 
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {
