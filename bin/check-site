@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'yaml'
+require_relative 'site_tools'
+
+root = File.expand_path('..', __dir__)
+config = YAML.load_file(File.join(root, '_config.yml'))
+fixture = JSON.parse(File.read(File.join(root, 'test/fixtures/published.json')))
+errors = SiteTools.verify(File.join(root, '_site'), site_url: config.fetch('url'), baseurl: config['baseurl'].to_s, fixture: fixture)
+abort errors.join("\n") unless errors.empty?
+puts "Site checks passed: routes, content, publication order, #{fixture['pdf_sha256'].length} PDFs, local assets, srcset, CSS versions, canonical URLs and sitemap."
