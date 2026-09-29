@@ -1,45 +1,14 @@
 ---
 ---
 <div class="row">
-  {% if site.enable_publication_thumbnails %}
-    <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
-      {% if entry.preview %}
-        {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-        {% else %}
-          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-          {%
-            include figure.liquid
-            loading="eager"
-            path=entry_path
-            sizes = "200px"
-            class="preview z-depth-1 rounded"
-            zoomable=false
-            alt=entry.preview
-          %}
-        {% endif %}
-      {% elsif entry.abbr %}
-        {% if site.data.venues[entry.abbr] %}
-          {% assign venue_style = null %}
-          {% if site.data.venues[entry.abbr].color != blank %}
-            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
-          {% endif %}
-          <abbr
-            class="badge"
-            {% if venue_style %}
-              {{ venue_style }}
-            {% endif %}
-            ><a href="{{site.data.venues[entry.abbr].url}}">{{ entry.abbr }}</a></abbr
-          >
-        {% else %}
-          <abbr class="badge">{{ entry.abbr }}</abbr>
-        {% endif %}
-      {% endif %}
-    </div>
-  {% endif %}
+  <div class="col-sm-2 abbr">
+    {% if entry.abbr -%}
+      <abbr class="badge">{{ entry.abbr }}</abbr>
+    {%- endif %}
+  </div>
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{entry.key}}" class="col-sm-8">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -59,17 +28,6 @@
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
-        {% assign coauthor_url = null %}
-        {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
-        {% if site.data.coauthors[clean_last_name] %}
-          {%- for coauthor in site.data.coauthors[clean_last_name] -%}
-            {% if coauthor.firstname contains author.first %}
-              {%- assign coauthor_url = coauthor.url -%}
-              {% break %}
-            {% endif %}
-          {% endfor %}
-        {%- endif -%}
-
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false %},&nbsp;{% endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
@@ -80,15 +38,9 @@
             {{ author.last -}}
           </em>
         {%- else -%}
-          {%- if coauthor_url -%}
-            <a href="{{coauthor_url}}">
-              {{- author.first }}
-              {{ author.last -}}
-            </a>
-          {%- else -%}
-            {{ author.first }}
-            {{ author.last }}
-          {% endif %}
+          {{ author.first }}
+          {{ author.last -}}
+          {{- ' ' }}
         {%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
@@ -213,64 +165,6 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
-    {% if site.enable_publication_badges %}
-      {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
-      {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
-      {% assign entry_has_google_scholar_badge = entry.google_scholar_id %}
-      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge %}
-        <div class="badges">
-          {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
-            <span
-              class="altmetric-embed"
-              data-hide-no-mentions="true"
-              data-hide-less-than="15"
-              data-badge-type="2"
-              data-badge-popover="right"
-              {% if entry.eprint %}
-                data-arxiv-id="{{ entry.eprint }}"
-              {% elsif entry.doi %}
-                data-doi="{{ entry.doi }}"
-              {% elsif entry.altmetric %}
-                data-altmetric-id="{{ entry.altmetric }}"
-              {% elsif entry.pmid %}
-                data-pmid="{{ entry.pmid }}"
-              {% elsif entry.isbn %}
-                data-isbn="{{ entry.isbn }}"
-              {% endif %}
-            ></span>
-          {% endif %}
-          {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
-            <span
-              class="__dimensions_badge_embed__"
-              {% if entry.doi %}
-                data-doi="{{ entry.doi }}"
-              {% else %}
-                data-pmid="{{ entry.pmid }}"
-              {% else %}
-                data-id="{{ entry.dimensions }}"
-              {% endif %}
-              data-hide-zero-citations="true"
-              data-style="small_rectangle"
-              data-legend="hover-right"
-              style="margin-bottom: 3px;"
-            ></span>
-          {% endif %}
-          {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
-            <a
-              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.scholar_userid }}&citation_for_view={{ site.scholar_userid }}:{{ entry.google_scholar_id }}"
-              aria-label="Google Scholar link"
-              role="button"
-            >
-              <img
-                src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{% google_scholar_citations site.scholar_userid entry.google_scholar_id %} Google Scholar citations"
-              >
-            </a>
-          {% endif %}
-        </div>
-      {% endif %}
-    {% endif %}
-
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
       <div class="abstract hidden">

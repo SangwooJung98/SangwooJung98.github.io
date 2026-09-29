@@ -15,13 +15,13 @@
 - title: Field of Interest
   type: time_table
   contents:
-    - title: 
-      description: 
+    - title:
+      description:
         - Radar, LiDAR SLAM
         - Legged Robot
         - Sensor Fusion
         - Deep Learning
-   
+
 - title: Education
   type: time_table
   contents:
@@ -37,11 +37,11 @@
       year: 2023.08.
       description:
         - Mechanical Engineering
-        - Advised by Dr. Ayoung Kim 
+        - Advised by Dr. Ayoung Kim
         - title: Dissertation
           contents:
             - Radar Odometry for Quadrupedal Robot using Gravity
-    
+
     - title: Bachelor of Science
       institution: Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea
       year: 2021.02.
@@ -49,13 +49,13 @@
         - Mechanical Engineering
         - Computer Science
         - Advised by Dr. Seong Su Kim
-    
+
     - title: High School
       institution: Hansung Science High School (HSHS), Seoul, South Korea
       year: 2016.02.
       description:
         - Early Graduation
-    
+
 - title: Experience
   type: time_table
   contents:
@@ -71,11 +71,11 @@
       year: 2020 - 2021
       description:
         - LiDAR-based UGV Sensing System Build and Multiple Experiments in Unstructured Environments
-    
+
     - title: Exchange Student
       institution: KTH Royal Institute of Technology, Stockholm, Sweden
       year: 2019 - 2020
-    
+
     - title: Undergraduate Researcher
       institution: MORIN Lab, Dept. of Mechanical Engineering, KAIST
       year: 2018 - 2018
@@ -87,7 +87,7 @@
   contents:
     - title: Oral Presentation
       year: 2026.07.
-      description: 
+      description:
         - RAI Institute Internship Presentation
         - Robust and Analytically Accurate Motion Blur Handling on Online 3D Gaussian Splatting
 
@@ -114,13 +114,13 @@
       description:
         - Work-in-Progress Paper in UR
         - Toward 6D Velocity Estimation for Legged Robot using Rolling Motion
-    
+
     - title: Poster Presentation
       year: 2023.10.
       description:
         - Novel Sensors for Autonomous Vehicle Perception Workshop in IROS
         - CycleGAN-based Imaging Radar to LiDAR Image-Translation for 2D Extrinsic Calibration
-    
+
     - title: Poster Presentation
       year: 2022.10.
       description:
@@ -131,7 +131,7 @@
   type: time_table
   contents:
     - title: Reviewer
-      description: 
+      description:
         - IEEE Transactions on Robotics (T-RO)
         - International Journal of Robotics Research (IJRR)
         - IEEE Robotics and Automation Letters (RA-L)
@@ -149,7 +149,7 @@
     - title: (SLAM101) Sensor-Based Spatial Intelligence
       institution: Dept. of Mechanical Engineering, Seoul National University (SNU)
       year: 2025 - 2025
-    
+
     - title: (UROP) Undergraduate Research Opportunities Program
       institution: Dept. of Mechanical Engineering, Seoul National University (SNU)
       year: 2024 - 2024
