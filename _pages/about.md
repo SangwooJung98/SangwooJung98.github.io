@@ -14,8 +14,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I'm a Ph.D. candidate in [RPM Robotics Lab](https://rpm.snu.ac.kr/) at [Seoul National University (SNU)](https://www.snu.ac.kr/), being advised by [Prof. Ayoung Kim](https://ayoungk.github.io/).
-Currently, I'm focusing on radar, LiDAR, and quadrupedal robot applications for Simultaneous Localization and Mapping (SLAM), sensor fusion and deep learning.
-My interest lies at the intersection of these cutting-edge technologies, exploring their integration for advanced perception and navigation systems.
+My research interests include Spatial AI, Robot Vision, Legged Robots, and Radar.
 
 A head of this, I was a M.S. student in RPM Robotics Lab at SNU.
 During my M.S. studies, my research concentrated on mitigating the vertical odometry drift of quadrupedal robots by leveraging radar sensor data and leg kinematics analysis.
