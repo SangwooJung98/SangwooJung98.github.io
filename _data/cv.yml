@@ -17,10 +17,10 @@
   contents:
     - title:
       description:
-        - Radar, LiDAR SLAM
-        - Legged Robot
-        - Sensor Fusion
-        - Deep Learning
+        - Spatial AI
+        - Robot Vision
+        - Legged Robots
+        - Radar
 
 - title: Education
   type: time_table
