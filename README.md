@@ -40,6 +40,7 @@ Python, Jupyter, global npm packages and external blog feeds are not required.
 | Colors and layout                        | `_sass/_themes.scss`, `_sass/_layout.scss`, `_sass/_base.scss` |
 
 Keep each paper in its category file only. The homepage uses the same entry, so its title, authors, links and BibTeX stay consistent with the publications page.
+For an accepted paper that still uses an arXiv citation, keep the arXiv BibTeX fields and add `venue` for the displayed conference name. This display field is omitted from the copied BibTeX.
 List every author in the published order; replace imported `and others` entries with the complete list from that publication's official record. All authors are displayed without a limit or an expand control.
 Unknown or duplicate selected keys fail the build. The original Co-RaL selection's inconsistent page range and missing organization now come from its canonical conference entry.
 
