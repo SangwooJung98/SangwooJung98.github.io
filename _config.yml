@@ -6,7 +6,7 @@ description: ""
 footer_text: ""
 keywords: Radar, LiDAR, SLAM, Legged Robot
 lang: en
-icon: "⚛️"
+icon: spot-favicon.ico
 url: https://sangwoojung98.github.io
 baseurl: ""
 navbar_fixed: true
