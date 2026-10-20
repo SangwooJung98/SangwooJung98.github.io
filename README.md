@@ -48,7 +48,7 @@ For a paper with shared first authorship, add `cofirst={2}` to its BibTeX entry 
 The homepage and publications list add `*` after those names. The copied BibTeX keeps the original author names and omits this display field.
 The current annotations were verified on page 1 of the linked PDFs: GaRLILEO (Chiyun Noh, Sangwoo Jung), MOANA (Hyesu Jang, Wooseong Yang), TRansPose (Jeongyun Kim, Myung-Hwan Jeon), and Quantitative 3D Map Accuracy Evaluation (Sanghyun Hahn, Seunghun Oh).
 
-The default theme is dark. A visitor's saved light, dark or system preference takes precedence; use the navigation theme button to change it.
+The site uses a slate-blue palette in both light and dark mode. The default theme is light. A visitor's saved light, dark or system preference takes precedence; use the navigation theme button to change it.
 
 `assets/img/prof_pic.jpg` remains the source image. Production builds generate three WebP sizes automatically.
 Do not commit `_site`, `vendor/bundle`, `node_modules` or generated WebP files.

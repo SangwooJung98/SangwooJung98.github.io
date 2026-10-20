@@ -39,7 +39,7 @@ table.table a {
   color: var(--global-theme-color);
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 
@@ -360,8 +360,8 @@ footer.sticky-bottom {
       border-color: var(--global-divider-color);
 
       .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        color: var(--global-badge-text-color) !important;
+        background-color: var(--global-badge-bg-color) !important;
       }
     }
   }
@@ -395,7 +395,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -423,12 +423,13 @@ footer.sticky-bottom {
 
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
+          background-color: var(--global-badge-bg-color);
+          color: var(--global-badge-text-color) !important;
           padding-left: 1rem;
           padding-right: 1rem;
 
           a {
-            color: white;
+            color: var(--global-badge-text-color) !important;
 
             &:hover {
               text-decoration: none;
@@ -467,7 +468,7 @@ footer.sticky-bottom {
         .btn {
           background-color: transparent;
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          border: 1px solid var(--global-button-border-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
