@@ -1,0 +1,14 @@
+{% if site.data.news.size > 0 %}
+  <section class="news" aria-labelledby="news-heading">
+    <h2 id="news-heading">news</h2>
+    <ul class="news-list">
+      {% assign news_items = site.data.news | sort: 'month' | reverse %}
+      {% for item in news_items %}
+        <li class="news-item">
+          <time datetime="{{ item.month }}">{{ item.month | append: '-01' | date: '%b %Y' }}</time>
+          <div class="news-content">{{ item.text | markdownify }}</div>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

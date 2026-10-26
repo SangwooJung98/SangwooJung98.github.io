@@ -1,0 +1,48 @@
+# Use YYYY-MM only. Within a month, place older announcements first.
+# The homepage displays entries in reverse chronological order.
+
+# Source: assets/pdf/my_cv.pdf, Experience (Jan. 2026 - Jul. 2026).
+- month: "2026-01"
+  text: >-
+    I joined the **Perception Team at RAI Institute** in Cambridge, MA,
+    as a Ph.D. research intern.
+
+# Source: assets/pdf/my_cv.pdf and _data/cv.yml, Presentations (Jun. 2026).
+- month: "2026-06"
+  text: >-
+    I gave a seminar at **MIT Spark Lab** on robust and analytically accurate
+    motion-blur handling for online 3D Gaussian Splatting.
+
+# Public announcement: June 29, 2026; this is not the acceptance decision date.
+# https://www.linkedin.com/posts/sangwoojung98_new-ijrr-publication-about-gravity-aligned-activity-7477221005820575744-xsEC
+- month: "2026-06"
+  text: >-
+    Our paper [GaRLILEO](https://garlileo.github.io/GaRLILEO/) is accepted
+    to **IJRR**.
+
+# Source: assets/pdf/my_cv.pdf and _data/cv.yml, Presentations (Jul. 2026).
+- month: "2026-07"
+  text: >-
+    I gave my internship research presentation at **RAI Institute**, sharing our work
+    on motion-blur handling for online 3D Gaussian Splatting.
+
+# IJRR announcement: September 27, 2026 UTC (September 28 in Korea).
+# https://www.linkedin.com/posts/ijrr-journal_time-to-announce-the-two-honorable-mentions-activity-7510006761567735808-nZ3y
+- month: "2026-09"
+  text: >-
+    [GaRLILEO](https://garlileo.github.io/GaRLILEO/) received an
+    **Honorable Mention for the IJRR Paper of the Season Award**.
+
+# Acceptance: October 7, 2026, stated on page 1 of pdf/inter_journal/kim2026ragnarok.pdf.
+- month: "2026-10"
+  text: >-
+    Our paper [RAGNAROK](https://ragnarok-rvki-slam.github.io/RAGNAROK/) is
+    accepted to **RA-L**.
+
+# October public release: arXiv v1 submitted October 17, 2026; project page released in October.
+# This news month refers to the public release, not the acceptance decision date.
+# https://arxiv.org/abs/2610.24605 and https://romo-gs.github.io/
+- month: "2026-10"
+  text: >-
+    Our paper [RoMo-GS](https://romo-gs.github.io/) is accepted to
+    **CoRL 2026**.
