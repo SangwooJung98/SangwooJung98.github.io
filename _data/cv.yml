@@ -85,6 +85,12 @@
 - title: Presentations
   type: time_table
   contents:
+    - title: Poster Presentation
+      year: 2026.11.
+      description:
+        - Conference on Robot Learning (CoRL 2026)
+        - "RoMo-GS: Efficient Online 3D Gaussian Splatting for Robot Mapping via Exposure-Integrated Motion Blur"
+
     - title: Oral Presentation
       year: 2026.07.
       description:
