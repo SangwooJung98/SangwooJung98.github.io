@@ -42,7 +42,7 @@ Python, Jupyter, global npm packages and external blog feeds are not required.
 
 Keep each paper in its category file only. The homepage uses the same entry, so its title, authors, links and BibTeX stay consistent with the publications page.
 
-News entries use a quoted `month` in `YYYY-MM` format and Markdown `text`. The homepage shows all entries with the newest month first; within a month, place older announcements first in the data file. Keep date sources in comments, and distinguish public announcement dates from acceptance dates. All visible news dates use month and year only.
+News entries use a quoted `month` in `YYYY-MM` format and Markdown `text`. The homepage shows the seven most recent entries with the newest month first; within a month, place older announcements first in the data file. Older entries remain in the data file for reference. Keep date sources in comments, and distinguish public announcement dates from acceptance dates. All visible news dates use month and year only.
 
 For an accepted paper that still uses an arXiv citation, keep the arXiv BibTeX fields and add `venue` for the displayed conference name. This display field is omitted from the copied BibTeX.
 List every author in the published order; replace imported `and others` entries with the complete list from that publication's official record. All authors are displayed without a limit or an expand control.
